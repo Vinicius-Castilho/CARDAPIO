@@ -5,7 +5,8 @@ function checkRestaurantOpen(){
     const hora = data.getHours();
     const dia = data.getDay();
 
-    const isOpenDay = dia === 1 || dia === 0 || dia >= 4;
+    // quinta a segunda ---> const isOpenDay = dia === 1 || dia === 0 || dia >= 4;
+    const isOpenDay = dia >= 4 || dia === 0;
     const isOpenHour = hora >= 18 && hora < 23;
     return isOpenDay && isOpenHour
 }

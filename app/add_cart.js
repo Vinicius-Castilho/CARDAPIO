@@ -163,22 +163,22 @@ chekoutBtn.addEventListener("click", function() {
 
     //Impedir de enviar pedidos com restaurante fechado
      const isOpen = checkRestaurantOpen();
-    //  if(!isOpen){
-    //     Toastify({
-    //         text: "Delivery Fechado! :(",
-    //         duration: 3000,
-    //         close: true,
-    //         gravity: "top", // `top` or `bottom`
-    //         position: "right", // `left`, `center` or `right`
-    //         stopOnFocus: true, // Prevents dismissing of toast on hover
-    //         style: {
-    //           background: "#ed4444",
-    //         },
-    //         onClick: function(){} // Callback after click
-    //       }).showToast();
+     if(!isOpen){
+        Toastify({
+            text: "Delivery Fechado! :(",
+            duration: 3000,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+              background: "#ed4444",
+            },
+            onClick: function(){} // Callback after click
+          }).showToast();
 
-    //       return;
-    // }
+          return;
+    }
 
 
     if (cart.length === 0) return;
