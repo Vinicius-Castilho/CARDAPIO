@@ -46,4 +46,4 @@ O projeto foi utilizado no restaurante *Estação Burguer* (hoje encerrado), mas
 ## 👤 Autor
 
 **Vinicius Castilho**  
-🔗 [GitHub - Vinicius-Castilho](https://github.com/Vinicius-Castilho)
+🔗 [Linkedin - Vinicius-Castilho](https://www.linkedin.com/in/vinicius-castilh0/)
